@@ -159,38 +159,43 @@
 
 
 
-let company = {
-    sales: [
-      { name: "John", salary: 1000 },
-      { name: "Alice", salary: 1600 },
-    ],
-    development: {
-      sites: [
-        { name: "Peter", salary: 2000 },
-        { name: "Alex", salary: 1800 },
-      ],
-      dev: [
-        { name: "Peter", salary: 2000 },
-        { name: "Alex", salary: 1800 },
-      ],
-      internals: [{ name: "Jack", salary: 1300 }],
-    },
-  };
+// let company = {
+//     sales: [
+//       { name: "John", salary: 1000 },
+//       { name: "Alice", salary: 1600 },
+//     ],
+//     development: {
+//       sites: [
+//         { name: "Peter", salary: 2000 },
+//         { name: "Alex", salary: 1800 },
+//       ],
+//       dev: [
+//         { name: "Peter", salary: 2000 },
+//         { name: "Alex", salary: 1800 },
+//       ],
+//       internals: [{ name: "Jack", salary: 1300 }],
+//     },
+//   };
 
-  function getsalary(company) {
-    if (Array.isArray(company)) {
-        return company.reduce((sum, current) => sum += current.salary, 0)
-    }else{
-        let res = 0;
-        for(let supdep of Object.values(company)){
-            res += getsalary(supdep)
-        }
-        return res
-    }
-  }
-  console.log(getsalary(company));
+//   function getsalary(company) {
+//     if (Array.isArray(company)) {
+//         return company.reduce((sum, current) => sum += current.salary, 0)
+//     }else{
+//         let res = 0;
+//         for(let supdep of Object.values(company)){
+//             res += getsalary(supdep)
+//         }
+//         return res
+//     }
+//   }
+//   console.log(getsalary(company));
 
+// let obj = {one: "one", two:'two', one:'three'}
+// console.log(obj);
 
+// function reverseWords(str){
+//     return str.split(' ').reverse().join(' ');
+//   }
 
 
 
