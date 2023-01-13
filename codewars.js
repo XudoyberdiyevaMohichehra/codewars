@@ -198,6 +198,10 @@
 //   }
 
 
+function ho(params) {
+    return params ? "Ho " + params : "Ho";
+}
+console.log(ho(ho()))
 
 
 
