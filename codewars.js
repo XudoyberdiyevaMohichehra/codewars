@@ -198,10 +198,19 @@
 //   }
 
 
-function ho(params) {
-    return params ? "Ho " + params : "Ho";
-}
-console.log(ho(ho()))
+// function ho(params) {
+//     return params ? "Ho " + params : "Ho";
+// }
+// console.log(ho(ho()))
+
+// const stringToNumber = function(str){
+//     return +str;
+//   }
+//   console.log(stringToNumber("-2334"));
+
+//   const stringToNumber = (str)=> +str
+//   console.log(stringToNumber("-2334"));
+
 
 
 
