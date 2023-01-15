@@ -212,6 +212,16 @@
 //   console.log(stringToNumber("-2334"));
 
 
+// Array.from(chl).forEach((element, index)=>{
+//     if(index % 2 == 0){
+//         element.style.color = 'red'
+//     }else{
+//         element.style.color = 'blue'
+//     }
+//     // console.log(element);
+// })
+
+
 
 
 
