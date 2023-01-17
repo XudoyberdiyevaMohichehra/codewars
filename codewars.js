@@ -229,7 +229,14 @@
 
 // console.log(opposite(-9));
 
+// function smash (words) {
+//     return ""
+//  };
 
+function smash (words) {
+    return words.join(' ')
+ };
+ console.log(smash (['this', 'is', 'word']));
 
 
 
