@@ -233,13 +233,21 @@
 //     return ""
 //  };
 
-function smash (words) {
-    return words.join(' ')
- };
- console.log(smash (['this', 'is', 'word']));
+// function smash (words) {
+//     return words.join(' ')
+//  };
+//  console.log(smash (['this', 'is', 'word']));
+
+// function stringToArray(string){
+//    return string.split(' ')
+
+// }
+// console.log(stringToArray('string qwertttttttr', ));
 
 
-
-
+// function sumMix(x){
+//     return eval(x.join("+"))
+//   }
+// console.log(sumMix(['1', 5]));
 
 
