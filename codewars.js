@@ -250,4 +250,20 @@
 //   }
 // console.log(sumMix(['1', 5]));
 
+// function twoSort(s) {
+//     return s.sort()[0].split('').join('***')
+//   }
+  
+// console.log(twoSort(['web', 'web', 'web']));
 
+// function array(arr){
+//     return  arr.split(',').slice(1, -1).join('') || null
+// }
+// console.log(array('1, 2'));
+    
+
+function mango(quantity, price){
+    let res = quantity - Math.floor(quantity / 3)
+    return  (res * price)
+}
+console.log(mango(89, 76));
