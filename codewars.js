@@ -262,8 +262,13 @@
 // console.log(array('1, 2'));
     
 
-function mango(quantity, price){
-    let res = quantity - Math.floor(quantity / 3)
-    return  (res * price)
+// function mango(quantity, price){
+//     let res = quantity - Math.floor(quantity / 3)
+//     return  (res * price)
+// }
+// console.log(mango(89, 76));
+
+function findAverage(array) {
+    return array.length === 0 ? 0 : array.reduce((a, b)=> a + b / array.length, 0) 
 }
-console.log(mango(89, 76));
+  console.log(findAverage([1,2,3,4]))
