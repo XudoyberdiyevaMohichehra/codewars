@@ -268,7 +268,36 @@
 // }
 // console.log(mango(89, 76));
 
-function findAverage(array) {
-    return array.length === 0 ? 0 : array.reduce((a, b)=> a + b / array.length, 0) 
-}
-  console.log(findAverage([1,2,3,4]))
+// function findAverage(array) {
+//     return array.length === 0 ? 0 : array.reduce((a, b)=> a + b / array.length, 0) 
+// }
+//   console.log(findAverage([1,2,3,4]))
+
+
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//       return args.sort((a,b)=>  a-b )[0]
+//     }
+//   }
+//   let res = new SmallestIntegerFinder()
+//   console.log(res.findSmallestInt([1,2,3,4,5,0]));
+
+
+// function makeUpperCase(str) {
+//     // Code here
+//     return str.toUpperCase()
+//   }
+//   console.log(makeUpperCase('str'));
+
+// function reverseWords(str){
+//     return str.split(' ').reverse().join(' ')
+//   }
+function reverseWords(str){
+    return str.split(' ').reverse().join(' ');
+  }
+  console.log(reverseWords('hello world'));
+
+
+
+// let str = ['hiuhn', 'cg']
+// console.log(str.reverse());
