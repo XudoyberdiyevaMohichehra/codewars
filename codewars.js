@@ -292,11 +292,15 @@
 // function reverseWords(str){
 //     return str.split(' ').reverse().join(' ')
 //   }
-function reverseWords(str){
-    return str.split(' ').reverse().join(' ');
-  }
-  console.log(reverseWords('hello world'));
+// function reverseWords(str){
+//     return str.split(' ').reverse().join(' ');
+//   }
+//   console.log(reverseWords('hello world'));
 
+function greet(name){
+   return `Hello, ${name} how are you doing today?` 
+}
+console.log(greet('janna'));
 
 
 // let str = ['hiuhn', 'cg']
