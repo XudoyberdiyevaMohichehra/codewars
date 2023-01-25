@@ -297,11 +297,18 @@
 //   }
 //   console.log(reverseWords('hello world'));
 
-function greet(name){
-   return `Hello, ${name} how are you doing today?` 
-}
-console.log(greet('janna'));
+// function greet(name){
+//    return `Hello, ${name} how are you doing today?` 
+// }
+// console.log(greet('j'));
 
 
 // let str = ['hiuhn', 'cg']
 // console.log(str.reverse());
+
+function capitalizeWord(word) {
+  
+    return word[0].toUpperCase() + word.slice(1)
+  }
+  
+  console.log(capitalizeWord('word'));
