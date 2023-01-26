@@ -306,9 +306,20 @@
 // let str = ['hiuhn', 'cg']
 // console.log(str.reverse());
 
-function capitalizeWord(word) {
+// function capitalizeWord(word) {
+//     return word[0].toUpperCase() + word.slice(1)
+// }
   
-    return word[0].toUpperCase() + word.slice(1)
+// console.log(capitalizeWord('word'));
+
+function getCount(str) {
+    var vowelsCount = 0;
+    str.split("").forEach(function(x){
+      if(x == "a" | x == "e" | x == "i" | x == "o" | x == "u"){
+        vowelsCount += 1;
+      }
+    });  
+    return vowelsCount;
   }
-  
-  console.log(capitalizeWord('word'));
+ 
+ console.log(getCount('olma'));
