@@ -312,14 +312,25 @@
   
 // console.log(capitalizeWord('word'));
 
-function getCount(str) {
-    var vowelsCount = 0;
-    str.split("").forEach(function(x){
-      if(x == "a" | x == "e" | x == "i" | x == "o" | x == "u"){
-        vowelsCount += 1;
-      }
-    });  
-    return vowelsCount;
-  }
+// function getCount(str) {
+//     var vowelsCount = 0;
+//     str.split("").forEach(function(x){
+//       if(x == "a" | x == "e" | x == "i" | x == "o" | x == "u"){
+//         vowelsCount += 1;
+//       }
+//     });  
+//     return vowelsCount;
+//   }
  
- console.log(getCount('olma'));
+//  console.log(getCount('olma'));
+
+function findOdd(A) {
+    var obj = {};
+    A.forEach(function(el){
+      obj[el] ? obj[el]++ : obj[el] = 1;
+    });
+    
+    for(prop in obj) {
+      if(obj[prop] % 2 !== 0) return Number(prop);
+    }
+  }
