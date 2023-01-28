@@ -324,13 +324,24 @@
  
 //  console.log(getCount('olma'));
 
-function findOdd(A) {
-    var obj = {};
-    A.forEach(function(el){
-      obj[el] ? obj[el]++ : obj[el] = 1;
-    });
+// function findOdd(A) {
+//     var obj = {};
+//     A.forEach(function(el){
+//       obj[el] ? obj[el]++ : obj[el] = 1;
+//     });
     
-    for(prop in obj) {
-      if(obj[prop] % 2 !== 0) return Number(prop);
-    }
-  }
+//     for(prop in obj) {
+//       if(obj[prop] % 2 !== 0) return Number(prop);
+//     }
+//   }
+
+
+function positiveSum(arr) {
+ let res = 0;
+ for (let i = 0; i < arr.length; i++) {
+   arr[i] > 0 ? res += arr[i] : res += 0;
+ }
+ return res
+}
+console.log(positiveSum([1,-4,7,12, 13]));
+
