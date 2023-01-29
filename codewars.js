@@ -336,12 +336,16 @@
 //   }
 
 
-function positiveSum(arr) {
- let res = 0;
- for (let i = 0; i < arr.length; i++) {
-   arr[i] > 0 ? res += arr[i] : res += 0;
- }
- return res
-}
-console.log(positiveSum([1,-4,7,12, 13]));
+// function positiveSum(arr) {
+//  let res = 0;
+//  for (let i = 0; i < arr.length; i++) {
+//    arr[i] > 0 ? res += arr[i] : res += 0;
+//  }
+//  return res
+// }
+// console.log(positiveSum([1,-4,7,12, 13]));
 
+
+function sum(numbers) {
+    return numbers.reduce((a, b) => a + b, 0);
+  }
