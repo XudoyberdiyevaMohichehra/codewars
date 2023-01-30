@@ -346,6 +346,8 @@
 // console.log(positiveSum([1,-4,7,12, 13]));
 
 
-function sum(numbers) {
-    return numbers.reduce((a, b) => a + b, 0);
-  }
+// function sum(numbers) {
+//     return numbers.reduce((a, b) => a + b, 0);
+//   }
+
+const invert = array => array.map(num => -num);
