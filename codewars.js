@@ -350,4 +350,9 @@
 //     return numbers.reduce((a, b) => a + b, 0);
 //   }
 
-const invert = array => array.map(num => -num);
+// const invert = array => array.map(num => -num);
+
+
+
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
