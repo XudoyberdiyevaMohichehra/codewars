@@ -357,16 +357,27 @@
 // const min = (list) => Math.min(...list);
 // const max = (list) => Math.max(...list);
 
-function getCount(str) {
-    var vowelsCount = 0;
-    var vowels = ["a","e","i","o","u"];
-    for(var i = 0;i < str.length;i++){
-      for(var j=0;j<vowels.length;j++){
-        if(str[i] === vowels[j]){
-          vowelsCount++;
-        }
-      }
+// function getCount(str) {
+//     var vowelsCount = 0;
+//     var vowels = ["a","e","i","o","u"];
+//     for(var i = 0;i < str.length;i++){
+//       for(var j=0;j<vowels.length;j++){
+//         if(str[i] === vowels[j]){
+//           vowelsCount++;
+//         }
+//       }
+//     }
+    
+//     return vowelsCount;
+//   }
+
+function createPhoneNumber(numbers){
+    var format = "(xxx) xxx-xxxx";
+    
+    for(var i = 0; i < numbers.length; i++)
+    {
+      format = format.replace('x', numbers[i]);
     }
     
-    return vowelsCount;
+    return format;
   }
