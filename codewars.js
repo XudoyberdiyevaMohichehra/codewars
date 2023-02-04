@@ -371,13 +371,22 @@
 //     return vowelsCount;
 //   }
 
-function createPhoneNumber(numbers){
-    var format = "(xxx) xxx-xxxx";
+// function createPhoneNumber(numbers){
+//     var format = "(xxx) xxx-xxxx";
     
-    for(var i = 0; i < numbers.length; i++)
-    {
-      format = format.replace('x', numbers[i]);
+//     for(var i = 0; i < numbers.length; i++)
+//     {
+//       format = format.replace('x', numbers[i]);
+//     }
+    
+//     return format;
+
+
+var summation = function (num) {
+    let result = 0;
+    for (var i = 1; i <= num; i++) {
+      result += i;
     }
     
-    return format;
+    return result;
   }
