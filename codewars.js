@@ -382,11 +382,19 @@
 //     return format;
 
 
-var summation = function (num) {
-    let result = 0;
-    for (var i = 1; i <= num; i++) {
-      result += i;
-    }
+// var summation = function (num) {
+//     let result = 0;
+//     for (var i = 1; i <= num; i++) {
+//       result += i;
+//     }
     
-    return result;
-  }
+//     return result;
+//   }
+
+function lovefunc(flower1,flower2){
+    if (flower1%2==0&&flower2%2!==0) {
+        return true;
+    }else if(flower1%2!==0&&flower2%2==0){
+        return true;
+    }else return false;
+}
