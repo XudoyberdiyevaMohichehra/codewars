@@ -212,16 +212,6 @@
 //   console.log(stringToNumber("-2334"));
 
 
-// Array.from(chl).forEach((element, index)=>{
-//     if(index % 2 == 0){
-//         element.style.color = 'red'
-//     }else{
-//         element.style.color = 'blue'
-//     }
-//     // console.log(element);
-// })
-
-
 
 // function opposite(number) {
 //    return (-number)
@@ -391,10 +381,19 @@
 //     return result;
 //   }
 
-function lovefunc(flower1,flower2){
-    if (flower1%2==0&&flower2%2!==0) {
-        return true;
-    }else if(flower1%2!==0&&flower2%2==0){
-        return true;
-    }else return false;
-}
+// function lovefunc(flower1,flower2){
+//     if (flower1%2==0&&flower2%2!==0) {
+//         return true;
+//     }else if(flower1%2!==0&&flower2%2==0){
+//         return true;
+//     }else return false;
+// }
+
+Array.from(chl).forEach((element, index)=>{
+    if(index % 2 == 0){
+        element.style.color = 'red'
+    }else{
+        element.style.color = 'blue'
+    }
+    // console.log(element);
+})
