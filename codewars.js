@@ -389,11 +389,22 @@
 //     }else return false;
 // }
 
-Array.from(chl).forEach((element, index)=>{
-    if(index % 2 == 0){
-        element.style.color = 'red'
-    }else{
-        element.style.color = 'blue'
+// Array.from(chl).forEach((element, index)=>{
+//     if(index % 2 == 0){
+//         element.style.color = 'red'
+//     }else{
+//         element.style.color = 'blue'
+//     }
+//     // console.log(element);
+// })
+
+function solution(number){
+    var sum = 0;
+    
+    for(var i = 1;i< number; i++){
+      if(i % 3 == 0 || i % 5 == 0){
+        sum += i
+      }
     }
-    // console.log(element);
-})
+    return sum;
+  }
