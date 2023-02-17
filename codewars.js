@@ -398,13 +398,40 @@
 //     // console.log(element);
 // })
 
-function solution(number){
-    var sum = 0;
+// function solution(number){
+//     var sum = 0;
     
-    for(var i = 1;i< number; i++){
-      if(i % 3 == 0 || i % 5 == 0){
-        sum += i
-      }
-    }
-    return sum;
-  }
+//     for(var i = 1;i< number; i++){
+//       if(i % 3 == 0 || i % 5 == 0){
+//         sum += i
+//       }
+//     }
+//     return sum;
+//   }
+
+//   console.log(solution(10));//3+5+6+9
+
+// function bonusTime(salary, bonus) {
+//    if(bonus === true) return `£${salary *10}`
+//    else return `£${salary}`
+//  }
+//  console.log(bonusTime(10, true));
+
+// function setAlarm(employed, vacation){
+//     if (employed === true && vacation === true ) {
+//         return false
+//     }else if(employed === false && vacation === true){
+//         return false
+//     }else if(employed === false && vacation === false){
+//         return false
+//     }else if(employed === true && vacation === false){
+//         return true
+//     }
+
+// }
+// console.log(setAlarm(false, false));
+// setAlarm(true, true) -> false
+// setAlarm(false, true) -> false
+// setAlarm(false, false) -> false
+// setAlarm(true, false) -> true
+
