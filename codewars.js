@@ -435,3 +435,72 @@
 // setAlarm(false, false) -> false
 // setAlarm(true, false) -> true
 
+
+// Array.prototype.sort = function () {
+//     throw "TODO: Fix me";  // Delete this line of code and write your sorting algorithm here
+//   }
+
+// function makeSort(par) {
+//     return par.sort((a,b)=> a - b)
+// }
+// console.log(makeSort([53, 64,22, 11,67]));
+
+// function squareSum(numbers){
+//     let sum = 0;
+//     for(char of numbers){
+//         sum += char ** 2
+//     }
+//     return sum
+// }
+// console.log(squareSum([2,2,3]));
+
+// let arr = [2,2,3, 4, 5, 2, 1]
+
+// console.log(Math.max(...arr));
+// console.log(Math.min(...arr));
+
+// function sumTwoSmallestNumbers(numbers) {  
+//   let sum1 = numbers.sort((a,b)=> a-b)
+//   let res = 0;
+//   for (let i = 0; i < sum1.length; i++) {
+//     if(i === 2) break
+//     res += sum1[i];
+//   }
+//   return res
+// }
+// console.log(sumTwoSmallestNumbers([3,2,3, 4, 1, 2, 1]));
+
+// function rowSumOddNumbers(n) {
+//     let sum =0;
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 2 ==!0) {
+//        sum += i
+//     }
+//   }
+//   return sum
+// }
+// console.log(rowSumOddNumbers(9)); // 9+7+5+3+1
+
+// function rowSumOddNumbers(n) {
+//     return Math.pow(n, 3);
+// }
+// console.log(rowSumOddNumbers(9)); // 9+7+5+3+1
+
+// let num = 11;
+// console.log(num.toString(2));
+
+// const binaryArrayToNumber = arr => {
+//  let sum = arr.join('')
+//  let res = Number(sum)
+//  return parseInt(res,2)
+// };
+// console.log(binaryArrayToNumber([0, 1, 0, 1]));
+
+function digitize(n) {
+ let result = n.reverse().join('')
+ return result
+}
+console.log(digitize([1,2,3,4]));
+
+// let arr = [1,2,3]
+// console.log(arr.reverse());
