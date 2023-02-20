@@ -496,11 +496,19 @@
 // };
 // console.log(binaryArrayToNumber([0, 1, 0, 1]));
 
-function digitize(n) {
- let result = n.reverse().join('')
- return result
-}
-console.log(digitize([1,2,3,4]));
+// function digitize(n) {
+//  let result = n.reverse().join('')
+//  return result
+// }
+// console.log(digitize([1,2,3,4]));
 
 // let arr = [1,2,3]
 // console.log(arr.reverse());
+
+// console.log(parseInt('12.34'));
+
+function highAndLow(numbers){
+    numbers = numbers.split(' ').map(Number);
+    return Math.max.apply(0, numbers) + ' ' + Math.min.apply(0, numbers);
+  }
+console.log(highAndLow('1 2 3 4'));
