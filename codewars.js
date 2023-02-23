@@ -507,8 +507,13 @@
 
 // console.log(parseInt('12.34'));
 
-function highAndLow(numbers){
-    numbers = numbers.split(' ').map(Number);
-    return Math.max.apply(0, numbers) + ' ' + Math.min.apply(0, numbers);
+// function highAndLow(numbers){
+//     numbers = numbers.split(' ').map(Number);
+//     return Math.max.apply(0, numbers) + ' ' + Math.min.apply(0, numbers);
+//   }
+// console.log(highAndLow('1 2 3 4'));
+
+
+function century(year) {
+    return (year + 99) / 100 | 0;
   }
-console.log(highAndLow('1 2 3 4'));
