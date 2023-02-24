@@ -514,6 +514,10 @@
 // console.log(highAndLow('1 2 3 4'));
 
 
-function century(year) {
-    return (year + 99) / 100 | 0;
-  }
+// function century(year) {
+//     return (year + 99) / 100 | 0;
+//   }
+
+function squareDigits(num){
+    return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+}
