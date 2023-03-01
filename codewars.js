@@ -552,12 +552,14 @@
 // }
 
 
-function noSpace(x){
-  var result = ""
-  for(var index = 0; index < x.length; index++){
-    if(x[index] !== " "){
-      result += x[index];
-    }
-  }
-  return result;
-}
+// function noSpace(x){
+//   var result = ""
+//   for(var index = 0; index < x.length; index++){
+//     if(x[index] !== " "){
+//       result += x[index];
+//     }
+//   }
+//   return result;
+// }
+
+const century = year => year % 100 === 0 ? parseInt(year / 100) : parseInt(year / 100) + 1;
