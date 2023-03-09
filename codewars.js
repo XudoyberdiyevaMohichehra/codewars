@@ -562,4 +562,12 @@
 //   return result;
 // }
 
-const century = year => year % 100 === 0 ? parseInt(year / 100) : parseInt(year / 100) + 1;
+// const century = year => year % 100 === 0 ? parseInt(year / 100) : parseInt(year / 100) + 1;
+
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return args.sort((a,b)=>  a-b )[0]
+    }
+  }
+  let res = new SmallestIntegerFinder()
+  console.log(res.findSmallestInt([1,2,3,4,5,0]));
