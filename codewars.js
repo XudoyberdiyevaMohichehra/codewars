@@ -571,3 +571,4 @@ class SmallestIntegerFinder {
   }
   let res = new SmallestIntegerFinder()
   console.log(res.findSmallestInt([1,2,3,4,5,0]));
+  console.log('hi');
