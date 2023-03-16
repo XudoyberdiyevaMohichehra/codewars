@@ -39,7 +39,7 @@
 //     }
 //   }
 //   makeNegative(0.8);
-  
+
 
 
 // function makeNegative(num) {
@@ -80,11 +80,11 @@
 
 
 // function solution(str) {
-    // res = "";
-    // for (let i = str.length -1; i >= 0; i--) {
-    //     res += str[i]
-    // }
-    // return res
+// res = "";
+// for (let i = str.length -1; i >= 0; i--) {
+//     res += str[i]
+// }
+// return res
 // }
 // console.log(solution("hello world mohichehra"));
 
@@ -92,7 +92,7 @@
 
 
 // function numberToString(num) {
-    // Return a string of the number here!
+// Return a string of the number here!
 //     return num.toString()
 //   }
 //   console.log(numberToString(55));
@@ -104,7 +104,7 @@
 //   return res
 // };
 // console.log(removeChar('webbrain'));
- 
+
 
 
 // function repeatStr (n, s) {
@@ -243,14 +243,14 @@
 // function twoSort(s) {
 //     return s.sort()[0].split('').join('***')
 //   }
-  
+
 // console.log(twoSort(['web', 'web', 'web']));
 
 // function array(arr){
 //     return  arr.split(',').slice(1, -1).join('') || null
 // }
 // console.log(array('1, 2'));
-    
+
 
 // function mango(quantity, price){
 //     let res = quantity - Math.floor(quantity / 3)
@@ -299,7 +299,7 @@
 // function capitalizeWord(word) {
 //     return word[0].toUpperCase() + word.slice(1)
 // }
-  
+
 // console.log(capitalizeWord('word'));
 
 // function getCount(str) {
@@ -311,7 +311,7 @@
 //     });  
 //     return vowelsCount;
 //   }
- 
+
 //  console.log(getCount('olma'));
 
 // function findOdd(A) {
@@ -319,7 +319,7 @@
 //     A.forEach(function(el){
 //       obj[el] ? obj[el]++ : obj[el] = 1;
 //     });
-    
+
 //     for(prop in obj) {
 //       if(obj[prop] % 2 !== 0) return Number(prop);
 //     }
@@ -357,18 +357,18 @@
 //         }
 //       }
 //     }
-    
+
 //     return vowelsCount;
 //   }
 
 // function createPhoneNumber(numbers){
 //     var format = "(xxx) xxx-xxxx";
-    
+
 //     for(var i = 0; i < numbers.length; i++)
 //     {
 //       format = format.replace('x', numbers[i]);
 //     }
-    
+
 //     return format;
 
 
@@ -377,7 +377,7 @@
 //     for (var i = 1; i <= num; i++) {
 //       result += i;
 //     }
-    
+
 //     return result;
 //   }
 
@@ -400,7 +400,7 @@
 
 // function solution(number){
 //     var sum = 0;
-    
+
 //     for(var i = 1;i< number; i++){
 //       if(i % 3 == 0 || i % 5 == 0){
 //         sum += i
@@ -524,22 +524,22 @@
 
 // function createPhoneNumber(numbers){
 //     var format = "(xxx) xxx-xxxx";
-    
+
 //     for(var i = 0; i < numbers.length; i++)
 //     {
 //       format = format.replace('x', numbers[i]);
 //     }
-    
+
 //     return format;
 //   }
 
 // function countPositivesSumNegatives(input) {
 //   if (input == null || input.length == 0)
 //     return [];
-  
+
 //   var positive = 0;
 //   var negative = 0;
-  
+
 //   for (var i=0, l=input.length; i<l; ++i)
 //   {
 //     if (input[i] > 0)
@@ -547,7 +547,7 @@
 //     else
 //       negative += input[i];
 //   }
-  
+
 //   return [positive, negative];
 // }
 
@@ -564,11 +564,23 @@
 
 // const century = year => year % 100 === 0 ? parseInt(year / 100) : parseInt(year / 100) + 1;
 
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return args.sort((a,b)=>  a-b )[0]
-    }
-  }
-  let res = new SmallestIntegerFinder()
-  console.log(res.findSmallestInt([1,2,3,4,5,0]));
-  console.log('hi');
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//       return args.sort((a,b)=>  a-b )[0]
+//     }
+//   }
+//   let res = new SmallestIntegerFinder()
+//   console.log(res.findSmallestInt([1,2,3,4,5,0]));
+//   console.log('hi');
+
+// let arr = [1, 2, 3, 4, 6, 1, 2, 3, 'a', 'b', 'c', 'a', 'b']
+
+// function countArr() {
+//   let obj = {};
+//   let res = arr.reduce((sum, curr) => sum + curr, 4)
+//   return res.push(obj)
+// }
+// console.log(countArr());
+
+
+// git remote add origin https://github.com/XudoyberdiyevaMohichehra/AntDesignC.git
