@@ -583,4 +583,3 @@
 // console.log(countArr());
 
 
-// git remote add origin https://github.com/XudoyberdiyevaMohichehra/AntDesignC.git
