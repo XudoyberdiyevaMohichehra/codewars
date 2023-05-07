@@ -583,3 +583,6 @@
 // console.log(countArr());
 
 
+function noSpace(x) {
+    return x.replace(/\s/g, '');
+}
