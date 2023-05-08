@@ -686,4 +686,4 @@
 // function solve(sign, num1, num2) {
 //    return eval(`${num1} ${sign} ${num2}`)
 // }
-// console.log(solve('/', 12, 3));
+// console.log(solve('+', 12, 3));
