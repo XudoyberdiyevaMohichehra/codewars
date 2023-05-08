@@ -620,14 +620,14 @@
 // Your function would return the following array:
 // Order(["Ko'z", "Bozor", "Stakan", "Muzlatkich"])
 
-function Order(params) {
-    let res = [];
-    return res = params.sort((a, b)=> a.length - b.length)
-}
+// function Order(params) {
+//     let res = [];
+//     return res = params.sort((a, b)=> a.length - b.length)
+// }
 
-console.log(Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"]));
+// console.log(Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"]));
+
 //===================================================================================================
-
 
 
 // 4
@@ -662,3 +662,28 @@ console.log(Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"]));
 // console.log(noSpace(' fgh fghj  gvbnm'));
 
 //===================================================================================================
+
+// 5.Arifmetik amallarni bajaruvchi funksiya yozing.
+
+// solve('+', 4, 7) => 11;
+// solve('-', 15, 18) => -3;
+// solve('*', 5, 5) => 25;
+// solve('/', 49, 7)=>  7;
+
+// function solve(sign, num1, num2) {
+//     switch (sign) {
+//         case '+': return num1 + num2; break;
+//         case '-': return num1 - num2; break;
+//         case '*': return num1 * num2; break;
+//         case '/': return num1 / num2; break;
+    
+//         default: return 'this sign is not exist'
+//             break;
+//     }
+// }
+// console.log(solve('0', 12, 3));
+
+// function solve(sign, num1, num2) {
+//    return eval(`${num1} ${sign} ${num2}`)
+// }
+// console.log(solve('/', 12, 3));
