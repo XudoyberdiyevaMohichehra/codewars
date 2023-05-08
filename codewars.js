@@ -1,5 +1,5 @@
 // function evenOrOdd(number) {
-//  let a = number % 2 == 0 ?  'Even': 'Odd'; 
+//  let a = number % 2 == 0 ?  'Even': 'Odd';
 //   return a
 // };
 // console.log(evenOrOdd(12));
@@ -12,7 +12,7 @@
 // function changeStars(n) {
 //     for (let i = 0; i < n; i++) {
 //         for (let j = 0; j < n; j+=2) {
-//             console.log(`"*" * 3`);  
+//             console.log(`"*" * 3`);
 //         }
 //         console.log("*");
 //     }
@@ -43,7 +43,7 @@
 
 
 // function makeNegative(num) {
-//     let result = num === 0 ? 0 : Number("-" + num) 
+//     let result = num === 0 ? 0 : Number("-" + num)
 //     let res = num <= 0 ? num : Number("-" + num)
 //     result = res
 //     return  result
@@ -259,7 +259,7 @@
 // console.log(mango(89, 76));
 
 // function findAverage(array) {
-//     return array.length === 0 ? 0 : array.reduce((a, b)=> a + b / array.length, 0) 
+//     return array.length === 0 ? 0 : array.reduce((a, b)=> a + b / array.length, 0)
 // }
 //   console.log(findAverage([1,2,3,4]))
 
@@ -288,7 +288,7 @@
 //   console.log(reverseWords('hello world'));
 
 // function greet(name){
-//    return `Hello, ${name} how are you doing today?` 
+//    return `Hello, ${name} how are you doing today?`
 // }
 // console.log(greet('j'));
 
@@ -308,7 +308,7 @@
 //       if(x == "a" | x == "e" | x == "i" | x == "o" | x == "u"){
 //         vowelsCount += 1;
 //       }
-//     });  
+//     });
 //     return vowelsCount;
 //   }
 
@@ -459,7 +459,7 @@
 // console.log(Math.max(...arr));
 // console.log(Math.min(...arr));
 
-// function sumTwoSmallestNumbers(numbers) {  
+// function sumTwoSmallestNumbers(numbers) {
 //   let sum1 = numbers.sort((a,b)=> a-b)
 //   let res = 0;
 //   for (let i = 0; i < sum1.length; i++) {
@@ -583,6 +583,35 @@
 // console.log(countArr());
 
 
-function noSpace(x) {
-    return x.replace(/\s/g, '');
-}
+/******************************************************************************************************** */
+// G12 MASALALAR
+// 1
+// function noSpace(str) {
+//     res = " "
+//   for (let i = 0; i < str.length; i++)
+//     if (str[i] === " ") continue;
+//     else res += str[i];
+// }
+// noSpace("gyhjk  ook lloop nn");
+// console.log(res);
+
+// function noSpace(str) {
+//     return str.replaceAll(" ", "")
+// }
+// console.log(noSpace(' fgh fghj  gvbnm'));
+
+// function noSpace(str) {
+//     return str.split('').filter((vl)=> vl !== ' ').join('')
+// }
+// console.log(noSpace(' fgh fghj  gvbnm'));
+
+// function noSpace(str) {
+//     let res = ' '
+//    for (let i = 0; i < str.length; i++) {
+//     if (str[i] !== " ") {
+//         res += str[i]
+//     }
+// }
+//      return res
+// }
+// console.log(noSpace(' fgh fghj  gvbnm'));
