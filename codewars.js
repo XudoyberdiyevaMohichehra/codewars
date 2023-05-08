@@ -595,15 +595,38 @@
 
 // console.log(res);
 
-// __________________________________________________________
+//===================================================================================================
 
 
+// 2. stringni teskariga aylantiring.
+
+// For example:
+// 'world'  => 'dlrow'
+// 'word'   => 'drow'
+// solution('world'), => 'dlrow';
+// function reverseString(str) {
+//     let res = ''
+//     return res = str.split('').reverse().join('')
+// }
+// console.log(reverseString('params'));
+//===================================================================================================
 
 
+// 3.shart: array ichidagi valuelar length ga qarab joylashtirish.
 
+// For example
+// Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"])
 
+// Your function would return the following array:
+// Order(["Ko'z", "Bozor", "Stakan", "Muzlatkich"])
 
+function Order(params) {
+    let res = [];
+    return res = params.sort((a, b)=> a.length - b.length)
+}
 
+console.log(Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"]));
+//===================================================================================================
 
 
 
@@ -637,3 +660,5 @@
 //      return res
 // }
 // console.log(noSpace(' fgh fghj  gvbnm'));
+
+//===================================================================================================
