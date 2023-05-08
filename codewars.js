@@ -627,6 +627,28 @@
 
 // console.log(Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"]));
 
+function Koz(arr) {
+    let newArr = [];
+    let length = arr.length;
+    for (let i = 0; i < length; i++) {
+        let min = i;
+        for (let j = i + 1; j < length; j++) {
+            if (arr[j].length < arr[min].length) {
+                min = j;
+            }
+        }
+        if (i != min) {
+            let temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;
+        }
+        newArr.push(arr[i]);
+    }
+    return newArr;
+}
+
+console.log(Koz(["Bozor", "Stakan", "Ko'z", "Muzlatkich"]));
+
 //===================================================================================================
 
 
