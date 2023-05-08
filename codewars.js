@@ -585,7 +585,29 @@
 
 /******************************************************************************************************** */
 // G12 MASALALAR
-// 1
+// 1. array ichida berilgan sonlarni ikkiga kuppaytiruvchi funksiya yozing.
+
+// let arr = [1, 2, 4];
+
+// res = arr.map((value) => {
+//   return value * 2;
+// });
+
+// console.log(res);
+
+// __________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+// 4
 // function noSpace(str) {
 //     res = " "
 //   for (let i = 0; i < str.length; i++)
