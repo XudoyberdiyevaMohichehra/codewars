@@ -584,7 +584,7 @@
 
 
 /******************************************************************************************************** */
-// G12 MASALALAR
+// G12 MASALALAR 1/5
 // 1. array ichida berilgan sonlarni ikkiga kuppaytiruvchi funksiya yozing.
 
 // let arr = [1, 2, 4];
@@ -627,27 +627,27 @@
 
 // console.log(Order(["Bozor", "Stakan", "Ko'z", "   Muzlatkich"]));
 
-function Koz(arr) {
-    let newArr = [];
-    let length = arr.length;
-    for (let i = 0; i < length; i++) {
-        let min = i;
-        for (let j = i + 1; j < length; j++) {
-            if (arr[j].length < arr[min].length) {
-                min = j;
-            }
-        }
-        if (i != min) {
-            let temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
-        }
-        newArr.push(arr[i]);
-    }
-    return newArr;
-}
+// function Koz(arr) {
+//     let newArr = [];
+//     let length = arr.length;
+//     for (let i = 0; i < length; i++) {
+//         let min = i;
+//         for (let j = i + 1; j < length; j++) {
+//             if (arr[j].length < arr[min].length) {
+//                 min = j;
+//             }
+//         }
+//         if (i != min) {
+//             let temp = arr[i];
+//             arr[i] = arr[min];
+//             arr[min] = temp;
+//         }
+//         newArr.push(arr[i]);
+//     }
+//     return newArr;
+// }
 
-console.log(Koz(["Bozor", "Stakan", "Ko'z", "Muzlatkich"]));
+// console.log(Koz(["Bozor", "Stakan", "Ko'z", "Muzlatkich"]));
 
 //===================================================================================================
 
@@ -698,7 +698,7 @@ console.log(Koz(["Bozor", "Stakan", "Ko'z", "Muzlatkich"]));
 //         case '-': return num1 - num2; break;
 //         case '*': return num1 * num2; break;
 //         case '/': return num1 / num2; break;
-    
+
 //         default: return 'this sign is not exist'
 //             break;
 //     }
@@ -709,3 +709,17 @@ console.log(Koz(["Bozor", "Stakan", "Ko'z", "Muzlatkich"]));
 //    return eval(`${num1} ${sign} ${num2}`)
 // }
 // console.log(solve('+', 12, 3));
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+// G12 MASALALAR 1/5
+
+// 1. binary sonlarni decimal sonlarga aylantiring.
+// const binaryArrayToNumber = arr => {
+//     let res = '';
+//     res = arr.join("")
+//     return res = parseInt(res, 2)
+
+// };
+// console.log(binaryArrayToNumber([0, 1, 0, 1]));
