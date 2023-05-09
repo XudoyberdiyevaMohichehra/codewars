@@ -31,3 +31,10 @@
 // solve('-', 15, 18) => -3;
 // solve('*', 5, 5) => 25;
 // solve('/', 49, 7)=>  7;
+
+// 5.Arifmetik amallarni bajaruvchi funksiya yozing.
+
+//     solve('+', 4, 7) => 11;
+// solve('-', 15, 18) => -3;
+// solve('*', 5, 5) => 25;
+// solve('/', 49, 7)=> 7;
