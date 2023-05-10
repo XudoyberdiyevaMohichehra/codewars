@@ -723,3 +723,58 @@
 
 // };
 // console.log(binaryArrayToNumber([0, 1, 0, 1]));
+
+// 2 - masala
+// so'z ichidagi unlilar miqdorini hisoblang
+
+// function unlilar(str) {
+//     let res = '';
+//     for (i of str) {
+//         if (i == 'a' || i == 'o' || i == 'u' || i == 'i' || i == 'e') {
+//            res ++
+//         }
+//     }
+//     return res
+// };
+
+// console.log(unlilar('erolt'));
+// ========================================================================
+
+//                    3-masala
+// eng qisqa so'zlar miqdorini hisoblang
+function name(params) {
+    
+}
+
+// ========================================================================
+//                    4-masala
+// dublicate sonlarni qaytaring
+// [1,2,4,4,3,3,1,5,3, "5"]  [4,3,1]
+// [0,1,2,3,4,5]  []
+
+// function dublicate(arr) {
+//     return arr.filter((value,index)=>
+//     arr.indexOf(value) !== index)
+// }
+// console.log(dublicate([1,2,4,4,3,3,1,5,3,"5"]));
+
+
+// ========================================================================
+//                    5-masala
+// eng kichkina miqdorni olb tashlang
+// [1,2,3,4,5] [2,3,4,5]
+// [5,3,2,4,1] [5,3,2,4]
+// [2,2,1,2,1] [2,2,2,1]
+
+// function kichik(ar){
+//          var array = [];
+//          var min = Math.min(...ar)
+//  for(var i=0;i<ar.length;i++){
+//   if(ar[i]>min){
+//     array.push(ar[i])
+//   }
+//  }
+
+// console.log(array);
+// }
+// kichik([2,2,1,2,1])
