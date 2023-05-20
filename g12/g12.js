@@ -153,7 +153,7 @@
 // 13.05.2023   3/10
 
 // 1. 
-// var charac = '?*-/+>,<=&%$#@'
+
 // function hasUniqueChars(str){
 //     return new Set(str).size === str.length
    
@@ -168,3 +168,8 @@
 // }
 
 // console.log(switcher(['24', '12', '23', '22', '4', '26', '9', '8']));
+
+ 
+import { ggg } from "./g12";
+console.log(ggg);
+console.log(1);
