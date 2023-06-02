@@ -787,9 +787,10 @@
 // kichik([2,2,1,2,1])
 
 
-const moment = {
-   locale: function (params) {
-      console.log('webbrain');
-   }
-}
-moment.locale()
+// const moment = {
+//    locale: function (params) {
+//       console.log('webbrain');
+//    }
+// }
+// moment.locale()
+
